@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.form-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+#search {
+  padding: 10px 20px;
+}
+
+#submit-btn {
+  color: #eee;
+  background-color: #000;
+  border: 1px solid gray;
+  padding: 10px 13px;
+  border-radius: 5px;
+}
+
+#submit-btn:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.remove-imgs {
+  padding: 12px;
+  border-radius: 5px;
+  background-color: salmon;
+  color: #eee;
+}
+
+.remove-imgs:hover {
+  background-color: rgb(248, 85, 67);
+  cursor: pointer;
+}
+
+.giph-holder {
+  width: 1200px;
+  height: 500px;
+  border: 1px solid white;
+  overflow: hidden;
+}
